@@ -204,7 +204,7 @@ body > .ui-select-bootstrap.open {
 
 .ui-select-multiple.ui-select-bootstrap {
   height: auto;
-  padding: 3px 3px 0 3px;
+  padding: 3px;
 }
 
 .ui-select-multiple.ui-select-bootstrap input.ui-select-search {
@@ -304,10 +304,12 @@ body > .ui-select-bootstrap.open {
     width: 100%;
     padding-right: 1em;
 }
-.ui-select-bootstrap .ui-select-match-text span {
+.ui-select-bootstrap .ui-select-match-text > span:first-child {
     display: inline-block;
     width: 100%;
     overflow: hidden;
+    padding-top:3px;
+    color:#3d3e40;
 }
 .ui-select-bootstrap .ui-select-toggle > a.btn {
   position: absolute;
